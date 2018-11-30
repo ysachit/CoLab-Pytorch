@@ -3,7 +3,9 @@
 If you want to use colab GPU then you have to enable manually. 
 
  1. Go to edit -> Notebook setting
-![Go to edit -> Notebook setting](https://github.com/ysachit/CoLab-Pytorch/blob/master/images/shot-1.png)
+ 
+![Go to edit -> Notebook setting](https://github.com/ysachit/CoLab-Pytorch/blob/master/images/shot-1.png=200x200)
 
 2. Select GPU in Hardware accelerator
-![Select GPU in Hardware accelerator](https://github.com/ysachit/CoLab-Pytorch/blob/master/images/shot-2.png) 
+
+![Select GPU in Hardware accelerator](https://github.com/ysachit/CoLab-Pytorch/blob/master/images/shot-2.png=200x200) 
