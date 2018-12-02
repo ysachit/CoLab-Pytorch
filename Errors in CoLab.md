@@ -71,4 +71,14 @@ Helper module is custom module made by udacity. Is only contain 2-3 method like 
         plt.tight_layout()
 
  
+ ## AttributeError: module 'PIL.Image' has no attribute 'register_extensions'
+
+    # workaround 
+    from PIL import Image
+    def register_extension(id, extension): Image.EXTENSION[extension.lower()] = id.upper()
+    Image.register_extension = register_extension
+    def register_extensions(id, extensions): 
+      for extension in extensions: register_extension(id, extension)
+    Image.register_extensions = register_extensions
+ 
  ### Happy Coding. :)
