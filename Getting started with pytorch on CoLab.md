@@ -1,7 +1,7 @@
 # Getting started with Pytorch in CoLab
 
 If you want to use CoLab GPU then you have to enable manually. 
-want to know how check here : https://github.com/ysachit/CoLab-Pytorch/blob/master/Enable%20GPU%20on%20CoLab.md
+Want to know how, check here : https://github.com/ysachit/CoLab-Pytorch/blob/master/Enable%20GPU%20on%20CoLab.md
 
 ## Install Pytorch on CoLab
 
