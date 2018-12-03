@@ -11,12 +11,12 @@ Helper module is custom module made by udacity. Is only contain 2-3 method like 
 1. Copy - Paste following code
 
     
-    
+  
+       
     import matplotlib.pyplot as plt
     import numpy as np
     from torch import nn, optim
     from torch.autograd import Variable
-        
     def imshow(image, ax=None, title=None, normalize=True):
         """Imshow for Tensor."""
         if ax is None:
