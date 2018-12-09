@@ -70,7 +70,10 @@ Helper module is custom module made by udacity. Is only contain 2-3 method like 
     
         plt.tight_layout()
 
+ 2. Download the module through wget.
  
+    !wget -c https://raw.githubusercontent.com/udacity/deep-learning-v2-pytorch/master/intro-to-pytorch/helper.py
+
  ## AttributeError: module 'PIL.Image' has no attribute 'register_extensions'
 
     # workaround 
