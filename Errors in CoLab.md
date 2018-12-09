@@ -9,20 +9,16 @@ Helper module is custom module made by udacity. Is only contain 2-3 method like 
 
 
 1. Copy - Paste following code
-
     
-    
-    import matplotlib.pyplot as plt
-    import numpy as np
-    from torch import nn, optim
-    from torch.autograd import Variable
-        
-    def imshow(image, ax=None, title=None, normalize=True):
+        import matplotlib.pyplot as plt
+        import numpy as np
+        from torch import nn, optim
+        from torch.autograd import Variable
+        def imshow(image, ax=None, title=None, normalize=True):
         """Imshow for Tensor."""
         if ax is None:
             fig, ax = plt.subplots()
         image = image.numpy().transpose((1, 2, 0))
-    
         if normalize:
             mean = np.array([0.485, 0.456, 0.406])
             std = np.array([0.229, 0.224, 0.225])
@@ -41,7 +37,7 @@ Helper module is custom module made by udacity. Is only contain 2-3 method like 
         return ax
     
     
-    def view_classify(img, ps, version="MNIST"):
+        def view_classify(img, ps, version="MNIST"):
         ''' Function for viewing an image and it's predicted classes.
         '''
         ps = ps.data.numpy().squeeze()
