@@ -10,15 +10,15 @@ Rank of a Matrix, Matrix Vector products, Column Spaces and Null Sp
 Variance, Conditional and Joint Distributions, Moment Generating Functions, Exponential Family of Distributions
 • Statistics: Maximum Likelihood Estimation, MAP, Prior and Posterior, Sampling methods, Gibbs
 
-### 4 Multi-variable Calculus (Matrix-Vector Calculus)
+### 4. Multi-variable Calculus (Matrix-Vector Calculus)
 Vector-valued functions, Partial-Derivatives, Gradient, Directional Gradient, Hessian, Jacobian, Laplacian, Lagrange
 Multipliers
 
-### 5 Real Analysis
+### 5. Real Analysis
 Properties of Sets and Sequences, Convergence of Sequence, Cauchy Sequences, Concepts from Topology like Open
 and Closed Sets, Metric Spaces, Limits and Continuity of functions, Differentiability
 
-### 6 Information Theory
+### 6. Information Theory
 Entropy, Mutual Information, Information Gain, KL Divergence
 
 
